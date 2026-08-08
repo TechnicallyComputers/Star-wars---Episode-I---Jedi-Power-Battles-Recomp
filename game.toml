@@ -1,0 +1,51 @@
+# Autofilled by tools/new_project_layout/probe_disc.py from your legal dump.
+# Review before shipping. Runtime quirks / overlay seeds still need hand work.
+
+[game]
+name = "Star wars - Episode I - Jedi Power Battles"
+id = "SLUS-01046"
+players = 2
+exe = "disc/SLUS_010.46"
+disc = "disc/Star Wars - Episode I - Jedi Power Battles (USA).cue"
+load_address = "0x80010000"
+entry_pc = "0x800629EC"
+text_size = "0x0009E800"
+stack_base = "0x801FFFF0"
+
+# Digests are for data Track 01 (first BINARY FILE / TRACK 01).
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Star Wars - Episode I - Jedi Power Battles (USA).bin"
+cue_name = "Star Wars - Episode I - Jedi Power Battles (USA).cue"
+boot_exe = "SLUS_010.46"
+known_sizes = [444361008]
+known_md5 = [
+  "f8c47818a643c36c9dfbc2c19f0b14a7",
+]
+known_sha1 = [
+  "f66b701f1226cc59d031b1db5ef6fb1e54231481",
+]
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Star wars - Episode I - Jedi Power Battles Recompiled"
+memcard_dir = "saves"
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+allow_hybrid = false
+
+# Online mount gate: digests + track count + optional TOC fingerprint
+# (see docs/NETPLAY.md).
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "2d080149705392e8ad56b995718d4749e5e51424438431652d8805ff4b668ce5"

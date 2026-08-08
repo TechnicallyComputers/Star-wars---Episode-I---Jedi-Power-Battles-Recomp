@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Star wars - Episode I - Jedi Power Battles",
+    "id": "SLUS-01046",
+    "boot_exe": "SLUS_010.46"
+  },
+  "marketing": {
+    "description": "The game follows the plot of Star Wars Episode I: The Phantom Menace. Players can choose from one of five prequel-era Jedi and run, jump, slash, and use the Force through the game's ten levels, starting on the Trade Federation Battleship and ending with the battle against Darth Maul on Naboo. The player's primary weapon is a lightsaber used to fight through waves of enemies and deflect blaster shots. The lightsaber combat is rather simplified with a system that lets the player lock on to the nearest enemy using the R1 button. Items and the force can also be used for special attacks. On most levels jumping puzzles make up a large portion of the challenge. There are a few segments in which the player can pilot various craft. The single player campaign can also be played in cooperative mode with a second player.",
+    "publisher": "LucasArts",
+    "year": "2000",
+    "region": "USA",
+    "players": 2
+  },
+  "rom_identity": {
+    "cue_name": "Star Wars - Episode I - Jedi Power Battles (USA).cue",
+    "bin_name": "Star Wars - Episode I - Jedi Power Battles (USA).bin",
+    "track_counts": [
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 444361008,
+      "md5": "f8c47818a643c36c9dfbc2c19f0b14a7",
+      "sha1": "f66b701f1226cc59d031b1db5ef6fb1e54231481"
+    },
+    "disc_fp": "2d080149705392e8ad56b995718d4749e5e51424438431652d8805ff4b668ce5"
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x800629EC",
+    "text_size": "0x0009E800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 1193,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
