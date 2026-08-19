@@ -9,3 +9,404 @@ name = "BootEntry"
 emit = false
 status = "guessed"
 note = "SYSTEM.CNF / EXE entry PC (probe seed)"
+
+# --- appended by `psxrecomp-analyze --emit-symbols` (high or better) ---
+
+[[func]]
+pc = 0x8006A7C0
+name = "bios_A0_2F_rand"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:2F rand — 7 caller(s)"
+
+[[func]]
+pc = 0x8006AB00
+name = "bios_B0_38_exit"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:38 exit — 16 caller(s)"
+
+[[func]]
+pc = 0x8006D18C
+name = "func_8006D18C"
+emit = false
+status = "guessed"
+note = "high — 1 arg(s), 0 caller(s), leaf"
+
+[[func]]
+pc = 0x8006D6F0
+name = "func_8006D6F0"
+emit = false
+status = "guessed"
+note = "verified — 1 arg(s), 1 caller(s), non-leaf"
+
+[[func]]
+pc = 0x8006DAF4
+name = "func_8006DAF4"
+emit = false
+status = "guessed"
+note = "high — 1 arg(s), 1 caller(s), leaf"
+
+[[func]]
+pc = 0x8006DDA4
+name = "func_8006DDA4"
+emit = false
+status = "guessed"
+note = "high — 3 arg(s), 3 caller(s), leaf"
+
+[[func]]
+pc = 0x8006F610
+name = "bios_A0_3F_printf"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:3F printf — 39 caller(s)"
+
+[[func]]
+pc = 0x8006FB30
+name = "bios_A0_2A_memcpy"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:2A memcpy — 8 caller(s)"
+
+[[func]]
+pc = 0x80070EBC
+name = "bios_A0_1F_strrchr"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:1F strrchr — 1 caller(s)"
+
+[[func]]
+pc = 0x80070ECC
+name = "bios_A0_26_tolower"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:26 tolower — 1 caller(s)"
+
+[[func]]
+pc = 0x80070EDC
+name = "bios_A0_0D_strtol"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:0D strtol — 1 caller(s)"
+
+[[func]]
+pc = 0x80070EEC
+name = "bios_A0_16_strncat"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:16 strncat — 2 caller(s)"
+
+[[func]]
+pc = 0x80071230
+name = "func_80071230"
+emit = false
+status = "guessed"
+note = "high — 1 arg(s), 4 caller(s), leaf"
+
+[[func]]
+pc = 0x80071774
+name = "bios_A0_30_srand"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:30 srand — 1 caller(s)"
+
+[[func]]
+pc = 0x80071A28
+name = "bios_A0_1A_strncpy"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:1A strncpy — 2 caller(s)"
+
+[[func]]
+pc = 0x80072EBC
+name = "bios_A0_25_toupper"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:25 toupper — 2 caller(s)"
+
+[[func]]
+pc = 0x80073B0C
+name = "bios_A0_18_strncmp"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:18 strncmp — 1 caller(s)"
+
+[[func]]
+pc = 0x8007610C
+name = "bios_B0_4E__card_write"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:4E _card_write — 3 caller(s)"
+
+[[func]]
+pc = 0x8007611C
+name = "bios_B0_5C_get_card_status"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:5C get_card_status — 1 caller(s)"
+
+[[func]]
+pc = 0x800761AC
+name = "bios_A0_1B_strlen"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:1B strlen — 1 caller(s)"
+
+[[func]]
+pc = 0x800761BC
+name = "bios_A0_2E_memchr"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:2E memchr — 1 caller(s)"
+
+[[func]]
+pc = 0x800761CC
+name = "bios_A0_49_GPU_cw"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:49 GPU_cw — 1 caller(s)"
+
+[[func]]
+pc = 0x80076304
+name = "bios_B0_3F_std_out_puts"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:3F std_out_puts — 6 caller(s)"
+
+[[func]]
+pc = 0x8007631C
+name = "bios_B0_5B_ChangeClearPad"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:5B ChangeClearPad — 3 caller(s)"
+
+[[func]]
+pc = 0x8007632C
+name = "bios_C0_0A_ChangeClearRCnt"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk C0:0A ChangeClearRCnt — 3 caller(s)"
+
+[[func]]
+pc = 0x800775F0
+name = "bios_A0_28_bzero"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:28 bzero — 1 caller(s)"
+
+[[func]]
+pc = 0x800780A4
+name = "bios_A0_13_setjmp"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:13 setjmp — 0 caller(s)"
+
+[[func]]
+pc = 0x800780B4
+name = "bios_B0_19_SetCustomExitFromException"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:19 SetCustomExitFromException — 0 caller(s)"
+
+[[func]]
+pc = 0x8007836C
+name = "bios_A0_72_CdRemove"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:72 CdRemove — 0 caller(s)"
+
+[[func]]
+pc = 0x80078384
+name = "bios_B0_17_ReturnFromException"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:17 ReturnFromException — 1 caller(s)"
+
+[[func]]
+pc = 0x80078394
+name = "bios_B0_18_SetDefaultExitFromException"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:18 SetDefaultExitFromException — 0 caller(s)"
+
+[[func]]
+pc = 0x8007C56C
+name = "bios_B0_0B_TestEvent"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:0B TestEvent — 4 caller(s)"
+
+[[func]]
+pc = 0x8007CD1C
+name = "bios_A0_AB"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:AB — 0 caller(s)"
+
+[[func]]
+pc = 0x8007CD6C
+name = "bios_A0_AC"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:AC — 0 caller(s)"
+
+[[func]]
+pc = 0x8007CD7C
+name = "bios_A0_15_strcat"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:15 strcat — 6 caller(s)"
+
+[[func]]
+pc = 0x8007CD8C
+name = "bios_B0_32_FileOpen"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:32 FileOpen — 2 caller(s)"
+
+[[func]]
+pc = 0x8007CD9C
+name = "bios_B0_36_FileClose"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:36 FileClose — 2 caller(s)"
+
+[[func]]
+pc = 0x8007CDAC
+name = "bios_B0_33_FileSeek"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:33 FileSeek — 0 caller(s)"
+
+[[func]]
+pc = 0x8007CDBC
+name = "bios_B0_34_FileRead"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:34 FileRead — 0 caller(s)"
+
+[[func]]
+pc = 0x8007CDCC
+name = "bios_B0_35_FileWrite"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:35 FileWrite — 0 caller(s)"
+
+[[func]]
+pc = 0x8007D07C
+name = "bios_B0_43_nextfile"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:43 nextfile — 1 caller(s)"
+
+[[func]]
+pc = 0x8007D08C
+name = "bios_B0_45_FileDelete"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:45 FileDelete — 1 caller(s)"
+
+[[func]]
+pc = 0x8007D09C
+name = "bios_B0_41_FormatDevice"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:41 FormatDevice — 1 caller(s)"
+
+[[func]]
+pc = 0x8007D0AC
+name = "bios_B0_50__new_card"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:50 _new_card — 2 caller(s)"
+
+[[func]]
+pc = 0x8007D0EC
+name = "bios_B0_09_CloseEvent"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:09 CloseEvent — 2 caller(s)"
+
+[[func]]
+pc = 0x8007D0FC
+name = "bios_B0_0D_DisableEvent"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:0D DisableEvent — 1 caller(s)"
+
+[[func]]
+pc = 0x8007D10C
+name = "bios_B0_07_DeliverEvent"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:07 DeliverEvent — 1 caller(s)"
+
+[[func]]
+pc = 0x8007D11C
+name = "bios_C0_03_SysDeqIntRP"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk C0:03 SysDeqIntRP — 2 caller(s)"
+
+[[func]]
+pc = 0x8007D12C
+name = "bios_C0_02_SysEnqIntRP"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk C0:02 SysEnqIntRP — 1 caller(s)"
+
+[[func]]
+pc = 0x8007D80C
+name = "bios_A0_44_FlushCache"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:44 FlushCache — 3 caller(s)"
+
+[[func]]
+pc = 0x8007D81C
+name = "bios_B0_08_OpenEvent"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:08 OpenEvent — 2 caller(s)"
+
+[[func]]
+pc = 0x8007D82C
+name = "bios_B0_0C_EnableEvent"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:0C EnableEvent — 2 caller(s)"
+
+[[func]]
+pc = 0x8007D9B0
+name = "bios_A0_70__bu_init"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:70 _bu_init — 1 caller(s)"
+
+[[func]]
+pc = 0x8007D9C0
+name = "bios_A0_17_strcmp"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk A0:17 strcmp — 1 caller(s)"
+
+[[func]]
+pc = 0x8007D9D0
+name = "bios_B0_42_firstfile"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:42 firstfile — 1 caller(s)"
+
+[[func]]
+pc = 0x8007D9F0
+name = "bios_B0_4A_InitCard"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:4A InitCard — 1 caller(s)"
+
+[[func]]
+pc = 0x8007DBD0
+name = "bios_B0_4B_StartCard"
+emit = false
+status = "guessed"
+note = "kernel dispatch thunk B0:4B StartCard — 1 caller(s)"
