@@ -1,9 +1,9 @@
 # Star wars - Episode I - Jedi Power Battles  Recompiled
 
 <!-- retcomm-readme-metrics -->
-[![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/TechnicallyComputers/Star-wars-Episode-I-Jedi-Power-Battles-Recomp/total)](https://github.com/TechnicallyComputers/Star-wars-Episode-I-Jedi-Power-Battles-Recomp/releases)
-[![GitHub downloads (latest release)](https://img.shields.io/github/downloads/TechnicallyComputers/Star-wars-Episode-I-Jedi-Power-Battles-Recomp/latest/total)](https://github.com/TechnicallyComputers/Star-wars-Episode-I-Jedi-Power-Battles-Recomp/releases/latest)
-[![GitHub release](https://img.shields.io/github/v/release/TechnicallyComputers/Star-wars-Episode-I-Jedi-Power-Battles-Recomp)](https://github.com/TechnicallyComputers/Star-wars-Episode-I-Jedi-Power-Battles-Recomp/releases/latest)
+[![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/total)](https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases)
+[![GitHub downloads (latest release)](https://img.shields.io/github/downloads/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/latest/total)](https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp)](https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/latest)
 <!-- /retcomm-readme-metrics -->
 
 <!-- retcomm-readme-boxart -->
