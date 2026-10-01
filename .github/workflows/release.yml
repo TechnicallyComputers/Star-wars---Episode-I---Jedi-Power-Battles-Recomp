@@ -496,7 +496,7 @@ jobs:
           name: seijpb-${{ matrix.artifact }}
           path: dist/seijpb-*-${{ matrix.artifact }}.zip
           if-no-files-found: error
-          retention-days: 30
+          retention-days: 5
 
   release:
     name: GitHub Release
